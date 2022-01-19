@@ -1,0 +1,21 @@
+body 
+h3, 
+form,
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.win,
+.lose {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
