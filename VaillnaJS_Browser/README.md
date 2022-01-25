@@ -7,7 +7,7 @@
 <br/>
 
 > #### Link
-  + [[𝕃𝕀ℕ𝕂]](https://js-browser.netlify.app)
+  + [𝕃𝕀ℕ𝕂](https://js-browser.netlify.app)
 
 <br/>
 
