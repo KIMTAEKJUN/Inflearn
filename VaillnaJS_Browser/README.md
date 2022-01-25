@@ -15,7 +15,9 @@
 
 <br/>
 
-![browser-img]https://user-images.githubusercontent.com/86834898/150960648-3907e14c-2a44-4627-96cc-c32400bc1ade.png
+![KakaoTalk_Photo_2022-01-25-19-16-28](https://user-images.githubusercontent.com/86834898/150960648-3907e14c-2a44-4627-96cc-c32400bc1ade.png)
+
+<br/>
 
 > ## **강의 들으면서 몰랐던거 구글링해서 메모하기**
 
