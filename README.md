@@ -22,12 +22,13 @@
 <br/>
 
 > Vanilla JS (브라우저 홈 구현)
-
 ✔ [𝕃𝕀ℕ𝕂]
 
 <br/>
 
 > Vanilla JS (노마드코더 챌린지) 
-✔ [[𝕃𝕀ℕ𝕂]](https://github.com/Kuah0/Inflearn/tree/master/VaillnaJS_Challenge)
+✔ 
+<br/>
+∙ [[𝕃𝕀ℕ𝕂]](https://github.com/Kuah0/Inflearn/tree/master/VaillnaJS_Challenge)
 
 <br/>
