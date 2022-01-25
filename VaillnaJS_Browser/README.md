@@ -22,7 +22,7 @@
 
 > #### .padStart(2, "0") → 주어진 길이를 만족하는 새로운 문자열을 채움 (왼쪽부터 채움)
 > #### localStorage.setItem("key", value) → 키에 데이터 쓰기
-> #### localStorage.getItem("key) → 키로 부터 데이터 읽기
+> #### localStorage.getItem("key") → 키로 부터 데이터 읽기
 > #### JSON.stringify() → JS값이나 객체를 JSON 문자열로 변환
 > #### JSON.parse() → JSON 문자열을 JS값이나 객체로 생성
 > #### .filter() → 모든 요소를 모아 새로운 배열로 반환
