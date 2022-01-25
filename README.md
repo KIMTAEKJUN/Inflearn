@@ -28,7 +28,6 @@
 
 > Vanilla JS (노마드코더 챌린지) 
 ✔ 
-<br/>
 ∙ [[𝕃𝕀ℕ𝕂]](https://github.com/Kuah0/Inflearn/tree/master/VaillnaJS_Challenge)
 
 <br/>
