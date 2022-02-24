@@ -120,7 +120,7 @@ fetch(url)
 
 // 예시
 p.then(onFulfilled[, onRejected]);
-// onFulfilled → Promise가 수행될 때 호출되는 Func, on Rejected → Promise가 거부될 때 호출되는 Func
+// onFulfilled → Promise가 수행될 때 호출되는 Func, onRejected → Promise가 거부될 때 호출되는 Func
 
 p.then((value) => {
   // 이행
