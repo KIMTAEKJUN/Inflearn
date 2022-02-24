@@ -23,7 +23,10 @@
 
 <br/>
 
-> #### .padStart(2, "0") → 주어진 길이를 만족하는 새로운 문자열을 채움 (왼쪽부터 채움)
+``` JS
+.padStart(2, "0") 
+``` 
+> #### → 주어진 길이를 만족하는 새로운 문자열을 채움 (왼쪽부터 채움)
 > #### localStorage.setItem("key", value) → 키에 데이터 쓰기
 > #### localStorage.getItem("key") → 키로 부터 데이터 읽기
 > #### JSON.stringify() → JS값이나 객체를 JSON 문자열로 변환
