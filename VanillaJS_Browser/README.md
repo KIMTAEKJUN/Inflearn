@@ -65,7 +65,7 @@ JSON.parse(value)
 
 + filter
   + 모든 요소를 모아 새로운 배열로 반환
-    + element : 요소값, index : 요소의 인덱스, array : 배열
+  + element : 요소값, index : 요소의 인덱스, array : 배열
 ``` JS
 .filter(callbackFunc(element, index, array), thisArg)
 
