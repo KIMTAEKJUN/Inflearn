@@ -29,29 +29,39 @@
 .padStart(targetLength, padString) 
 ``` 
 
+<br/>
+
 + localStorage.setItem
   + 키에 데이터 쓰기
 ``` JS
 localStorage.setItem("key", value)
 ```
 
+<br/>
+
 + localStorage.getItem
   + 키로 부터 데이터 읽기
 ``` JS
 localStorage.getItem("key")
 ```
-<br>
+
+<br/>
+
 + JSON.stringify
   + JS값이나 객체를 JSON 문자열로 변환
 ``` JS
 JSON.stringify(value)
 ```
 
+<br/>
+
 + JSON.parse
   + JSON 문자열을 JS값이나 객체로 생성
 ``` JS
 JSON.parse(value)
 ```
+
+<br/>
 
 + filter
   + 모든 요소를 모아 새로운 배열로 반환
@@ -74,11 +84,15 @@ function callbackFunc(list) {
 array.filter(callbackFunc);
 ```
 
+<br/>
+
 + typeof
   + 변수의 데이터 타입을 반환하는 연산자
 ``` JS
 typeof(value)
 ```
+
+<br/>
 
 + navigator.gelocation.getCurrentPosition
   + 장치의 현재 위치를 가져옴
@@ -86,11 +100,15 @@ typeof(value)
 navigator.geolocation.getCurrentPosition(success, error)
 ```
 
+<br/>
+
 + fetch
   + URL을 통해 네트워크 요청을 해주는 API (NodeJS의 API 중 하나다.)
 ``` JS
 fetch(url)
 ```
+
+<br/>
 
 + then
   + 비동기 처리에 사용되는 객체
@@ -112,6 +130,8 @@ p.then((value) => {
   // 거부 이유(rejection reason) 하나를 인수로 받음
 });
 ```
+
+<br/>
 
 + toFixed
   + 소수점 자리수 지정 자르기
