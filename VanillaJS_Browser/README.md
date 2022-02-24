@@ -29,15 +29,11 @@
 .padStart(2, "0") 
 ``` 
 
-
-
 + localStorage.setItem
   + 키에 데이터 쓰기
 ``` JS
 localStorage.setItem("key", value)
 ```
-
-<br/>
 
 + localStorage.getItem
   + 키로 부터 데이터 읽기
@@ -45,13 +41,35 @@ localStorage.setItem("key", value)
 localStorage.getItem("key")
 ```
 
-<br/>
++ JSON.stringify
+  + JS값이나 객체를 JSON 문자열로 변환
+``` JS
+JSON.stringify()
+```
 
-> #### JSON.stringify() → JS값이나 객체를 JSON 문자열로 변환
-> #### JSON.parse() → JSON 문자열을 JS값이나 객체로 생성
-> #### .filter() → 모든 요소를 모아 새로운 배열로 반환
-> #### typeof → 변수의 데이터 타입을 반환하는 연산자
-> #### navigator.geolocation.getCurrentPosition(success, error) → 장치의 현재 위치를 가져옴
++ JSON.parse
+  + JSON 문자열을 JS값이나 객체로 생성
+``` JS
+JSON.parse()
+```
+
++ .filter
+  + 모든 요소를 모아 새로운 배열로 반환
+``` JS
+.filter()
+```
+
++ typeof()
+  + 변수의 데이터 타입을 반환하는 연산자
+``` JS
+typeof
+```
+
++ navigator.gelocation.getCurrentPosition
+  + 장치의 현재 위치를 가져옴
+``` JS
+navigator.geolocation.getCurrentPosition(success, error)
+```
 > #### fetch(url) → URL을 통해 네트워크 요청을 해주는 API (NodeJS의 API 중 하나다.)
 > #### .then() → 비동기 처리에 사용되는 객체 
 > (JS의 비동기 처리 → 특정 코드의 실행이 완료될 때까지 기다리지 않고 다음 코드를 먼저 수행하는 자바스크립트의 특성) 출처 : [[𝕃𝕀ℕ𝕂]](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
