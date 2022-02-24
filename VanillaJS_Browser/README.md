@@ -40,7 +40,7 @@ localStorage.setItem("key", value)
 ``` JS
 localStorage.getItem("key")
 ```
-
+<br>
 + JSON.stringify
   + JS값이나 객체를 JSON 문자열로 변환
 ``` JS
