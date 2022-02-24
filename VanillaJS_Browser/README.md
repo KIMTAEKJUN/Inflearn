@@ -26,7 +26,7 @@
 + .padStart 
   + 주어진 길이를 만족하는 새로운 문자열을 채움 (왼쪽부터 채움)
 ``` JS
-.padStart(2, "0") 
+.padStart(targetLength, padString) 
 ``` 
 
 + localStorage.setItem
@@ -44,19 +44,20 @@ localStorage.getItem("key")
 + JSON.stringify
   + JS값이나 객체를 JSON 문자열로 변환
 ``` JS
-JSON.stringify()
+JSON.stringify(value)
 ```
 
 + JSON.parse
   + JSON 문자열을 JS값이나 객체로 생성
 ``` JS
-JSON.parse()
+JSON.parse(value)
 ```
 
 + .filter
   + 모든 요소를 모아 새로운 배열로 반환
+    + element : 요소값, index, 요소의 인덱스, array : 사용되는 배열 객체
 ``` JS
-.filter()
+.filter(callbackFunc(element, index, array), thisArg)
 ```
 
 + typeof()
