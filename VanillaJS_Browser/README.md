@@ -135,7 +135,7 @@ p.then((value) => {
 
 + toFixed
   + 소수점 자리수 지정 자르기
+  + 인자명 : digits, 데이터형 : number, 설명 : 0~20까지의 정수, 생략하면 0과 같음
 ``` JS
 .toFixed(digits)
-// 인자명 : digits, 데이터형 : number, 설명 : 0~20까지의 정수, 생략하면 0과 같음
 ```
