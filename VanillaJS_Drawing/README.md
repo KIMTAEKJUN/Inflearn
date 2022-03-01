@@ -15,6 +15,10 @@
 
 <br/>
 
+![캡처](https://user-images.githubusercontent.com/86834898/156184522-4189a7c7-cdac-4147-8312-fc5b0097617d.PNG)
+
+<br/>
+
 > ## **강의 들으면서 몰랐던거 구글링해서 메모하기**
 
 <br/>
