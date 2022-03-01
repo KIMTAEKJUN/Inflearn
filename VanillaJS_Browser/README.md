@@ -15,7 +15,7 @@
 
 <br/>
 
-![KakaoTalk_Photo_2022-01-25-19-16-28](https://user-images.githubusercontent.com/86834898/150960648-3907e14c-2a44-4627-96cc-c32400bc1ade.png)
+![browser-img](https://user-images.githubusercontent.com/86834898/150960648-3907e14c-2a44-4627-96cc-c32400bc1ade.png)
 
 <br/>
 
