@@ -15,7 +15,7 @@
 
 <br/>
 
-![캡처](https://user-images.githubusercontent.com/86834898/156184522-4189a7c7-cdac-4147-8312-fc5b0097617d.PNG)
+![drawing-img](https://user-images.githubusercontent.com/86834898/156184522-4189a7c7-cdac-4147-8312-fc5b0097617d.PNG)
 
 <br/>
 
