@@ -27,7 +27,7 @@ ctx.strokeStyle = "color";
 <br/>
 
 + stroke
- + 윤곽선을 이용하여 도형을 그림
+  + 윤곽선을 이용하여 도형을 그림
 ``` JS
 ctx.stroke();
 ```
