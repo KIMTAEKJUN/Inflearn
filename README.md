@@ -7,7 +7,7 @@
 <br/>
 
 ### 인프런 [Inflearn](https://www.inflearn.com/)
-> ???
+> ~~파이썬 입문~~
 
 <br/>
 
