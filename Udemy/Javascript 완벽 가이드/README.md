@@ -90,13 +90,10 @@
 >
 > // Exponentiation (2 ** 3 = 8)
 > **
-
-<br>
-
-> ```JS
+>
 > // Assign value to variable
 > =
-> ```
+
 
 <br><br>
 
