@@ -108,3 +108,25 @@
 > // Important for outputting results, gathering input
 > Strings (Text)
 > ```
+
+<br><br>
+
+### 26. 함수
+> Functions
+> ```JS
+> // (1) Define Function
+> // You can (but don't have to) use parameters (name) and you can (but don't have to) return values (via return)
+> function greetUser(name) {
+>     alert('Hi' + name);
+> }
+> ```
+
+<br>
+
+> ```JS
+> // (2) Call Function
+> // As often as you want, passing in (different) parameters values!
+> // Every function execution then runs independent from (possible) other executions.
+> greetUser('Max');
+> ```
+> 함수를 이용함으로써, 훨씬 더 융통적인 작업이 가능하다는 게 가장 큰 장점이다.
