@@ -107,9 +107,4 @@
 > // 'Hi', "Hi", `Hi`
 > // Important for outputting results, gathering input
 > Strings (Text)
->
-> //
->
->
-> // 
 > ```
