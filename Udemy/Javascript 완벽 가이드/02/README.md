@@ -410,4 +410,4 @@
 
 ### 51. JavaScript 임포트하기 - 요약
 > 웹 페이지에 JavaScript를 임포트하거나 추가하는 방법, 그래픽 요약
-> ![IMG](./01/IMG/javascript-import.png)
+> ![IMG](./IMG/javascript-import.png)
