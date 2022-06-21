@@ -17,7 +17,7 @@
 > ~~Udemy Javascript 초급 + 고급 마스터~~  
 > Udemy JavaScript 알고리즘 & 자료구조  
 > Udemy 실무 활용 중심의 MySQL 부트캠프    
-> Udemy 타입스크립트(TypeScript) 프로그래밍 입문
+> Udemy 타입스크립트(TypeScript) 프로그래밍 입문  
 > Udemy Typescript with React + NodeJS  
 > Udemy React 완벽 가이드 with Redux, NextJs, Typescript  
 > Udemy NodeJS 완벽 가이드 : MVC, REST API, GraphQL, Deno  
