@@ -90,6 +90,12 @@
 >
 > // Assign value to variable
 > =
+>
+> // Perform calculation and re-assign result to variable
+> +=, -=, *= . . .
+>
+> // Increment / Decrement variable value + re-assgin
+> ++, --
 
 
 <br><br>
@@ -104,7 +110,18 @@
 > // 'Hi', "Hi", `Hi`
 > // Important for outputting results, gathering input
 > Strings (Text)
-> ```
+> 
+> // True, False
+> // Important for conditional code and situations where you only have 2 options
+> Booleans
+>
+> // { name: 'Max', age: 31}
+> // Important for grouped / related data, helps you with organizing data
+> Objects
+>
+> // [1, 3, 5]
+> // Important for list data, unknown amounts of data
+> Arrays
 
 <br><br>
 
@@ -257,7 +274,9 @@
 > 이 작업은 다른 범위에 새 변수를 생성합니다 - 이런 변수는 전역 변수를 덮어쓰거나 제거하지 않습니다 - 둘은 공존하죠.
 >
 > 그러면 greetUser 함수 내에서 userName을 참조할 때 항상 로컬 섀도우 변수를 참조합니다.  
-> JavaScript는 해당 지역 변수가 존재하지 않는 경우에만 전역 변수로 폴백합니다.
+> JavaScript는 해당 지역 변수가 존재하지 않는 경우에만 전역 변수로 폴백합니다. 
+
+<br><br>
 
 ### 35. 간접적 & 직접적 함수 실행 - 요약
 > 함수를 실행하는 데에 두 가지 방법이 있는 것으로 보여 혼란스러우실 수 있습니다.
@@ -301,3 +320,35 @@
 >
 >왜냐하면 함수의 이름만 있고 JavaScript에 다른 정보를 제공하지 않았기 때문입니다.  
 > 그러면 JavaScript는 그 함수 이름으로 무엇을 해야 하는지 알지 못해서("클릭이 발생할 때 실행해야 하나요? 어느 정도의 시간이 지나면? 모르겠습니다...") 그리고 결과적으로 JavaScript는 이 문장을 무시하게 됩니다.
+
+<br><br>
+
+### 37. 숫자 & 문자열 섞기
+> JavaScript에서 아래와 같이 숫자와 "텍스트 숫자"가 추가되는 예를
+> ```JS
+> 3 + '3' => '33'
+> ```
+>보셨습니다.
+>
+>이는 + 연산자가 문자열(정확히는 문자열 접합)을 제공하기 때문에 생길 수 있습니다.
+>
+> 산술 연산자 중에서 유일하게 문자열을 지원합니다. 가령 아래의 코드는 작동하지 않습니다:
+> ```JS
+>'hi' - 'i' => NaN
+> ``
+>곧 NaN 을 배우실 테지만, 여기서 가장 중요한 점은 위의 코드로는 문자열 ‘h’를 발생시킬 수 없다는 겁니다. + 만 문자열과 숫자를 모두 지원합니다.
+>
+> 고맙게도 JavaScript는 매우 똑똑하므로 아래의 코드를 처리할 수 있습니다.
+> ```JS
+> 3 * '3' => 9
+> ```
+> 참고. 위의 코드는 숫자를 산출합니다 (!) 문자열 '9'가 아닌 9을 산출합니다!
+>
+> 비슷하게 아래의 연산도 모두 작동합니다.
+> ```JS
+> 3 - '3' => 0
+> 
+> 3 / '3' => 1
+> ```
+> 3 + '3' 만 '33' 을 산출합니다.  
+> 여기서 JavaScript가 + 연산자가 텍스트를 결합할 수 있다는 특성을 사용하여, 숫자 대신 문자열을 생성합니다.
